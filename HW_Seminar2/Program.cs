@@ -8,9 +8,9 @@
             int iVar = 66000;
             long lVar = 9999999999;
 
-            var bBits = new Bits(bVar);
-            var iBits = new Bits(iVar);
-            var lBits = new Bits(lVar);
+            var bBits = (Bits)bVar;
+            var iBits = (Bits)iVar;
+            var lBits = (Bits)lVar;
 
             // Приведение типов
             bVar = bBits;
